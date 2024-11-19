@@ -1,0 +1,44 @@
+.spotify-player {
+    background-color: #181818;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .album-art {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+  }
+  
+  .song-title {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .artist-name {
+    font-size: 14px;
+    color: #b3b3b3;
+    margin: 0;
+  }
+  
+  .song-progress {
+    height: 5px;
+    background-color: #535353;
+    margin-top: 10px;
+  }
+  
+  .song-progress .progress-bar {
+    background-color: #1db954;
+  }
+  
+  .control-btn {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  
+  .control-btn:hover {
+    color: #1db954;
+  }
+  

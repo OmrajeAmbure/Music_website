@@ -1,0 +1,46 @@
+.bg-set{
+  background-color: #121212;
+}
+.login{
+  margin-top: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  text-align: center;
+}
+.sign{
+    background-color: #F0F0F0;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+.login:hover{
+  background-color: #0bb3be;
+}
+.artist{
+  margin-top: 500px;
+
+}
+@media screen and (max-width: 480px) {
+  .sign{
+    background-color: aliceblue;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .login{
+    margin-top: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+  }
+  .artiest-slide{
+      display: flexbox;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      overflow-x: auto;
+      padding: 10px 0;
+      scroll-behavior: unset;
+  }
+}
